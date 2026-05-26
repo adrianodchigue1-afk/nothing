@@ -1,0 +1,14 @@
+{
+  "name": "botserver",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm init -y && npm pkg set type=module && npm install ws msgpackr https-proxy-agent socks-proxy-agent node-fetch",
+  "postStartCommand": "node server.js",
+  "forwardPorts": [8082],
+  "portsAttributes": {
+    "8082": {
+      "label": "Bot Server",
+      "onAutoForward": "notify",
+      "visibility": "public"
+    }
+  }
+}

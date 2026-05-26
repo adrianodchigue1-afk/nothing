@@ -1,0 +1,29 @@
+{
+  "name": "nothing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianodchigue1-afk/nothing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/adrianodchigue1-afk/nothing/issues"
+  },
+  "homepage": "https://github.com/adrianodchigue1-afk/nothing#readme",
+  "dependencies": {
+    "https-proxy-agent": "^9.0.0",
+    "msgpackr": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "socks-proxy-agent": "^10.0.0",
+    "ws": "^8.21.0"
+  },
+  "description": ""
+}
